@@ -1,0 +1,13 @@
+{
+"version": 1,
+"themes": {
+"cas": {
+"name": "cas",
+"repo": "https://github.com/HiTman77/cas",
+"zip": "https://github.com/HiTman77/cas/archive/master.zip",
+"summary": "cas",
+"version": "1.0.1",
+"image": "https://raw.githubusercontent.com/HiTman77/cas/main/preview.jpg"
+}
+}
+}
