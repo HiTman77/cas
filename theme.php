@@ -7,13 +7,13 @@
 <title><?= $Wcms->page('title') ?> - <?= $Wcms->get('config', 'siteTitle') ?></title>
 <meta name="title" content="<?= $Wcms->page('title') ?> - <?= $Wcms->get('config', 'siteTitle') ?>" />
 <meta name="description" content="<?= $Wcms->page('description') ?>">
-<link rel="stylesheet" href="/themes/casinos/assets/css/lib/bootstrap.min.css">
-<link rel="stylesheet" href="/themes/casinos/assets/css/all.min.css">
-<link rel="stylesheet" href="/themes/casinos/assets/css/line-awesome.min.css">
-<link rel="stylesheet" href="/themes/casinos/assets/css/lib/animate.css">
-<link rel="stylesheet" href="/themes/casinos/assets/css/lib/slick.css">
+<link rel="stylesheet" href="/themes/cas/assets/css/lib/bootstrap.min.css">
+<link rel="stylesheet" href="/themes/cas/assets/css/all.min.css">
+<link rel="stylesheet" href="/themes/cas/assets/css/line-awesome.min.css">
+<link rel="stylesheet" href="/themes/cas/assets/css/lib/animate.css">
+<link rel="stylesheet" href="/themes/cas/assets/css/lib/slick.css">
 <link rel="shortcut icon" href="/data/files/favicon.png">
-<link rel="stylesheet" href="/themes/casinos/assets/css/main.css?v=<?php echo(rand(1,10));?><?php echo(rand(1,10));?>">
+<link rel="stylesheet" href="/themes/cas/assets/css/main.css?v=<?php echo(rand(1,10));?><?php echo(rand(1,10));?>">
 <?= $Wcms->css() ?>
 </head>
 <body data-bs-spy="scroll" data-bs-offset="170" data-bs-target=".privacy-policy-sidebar-menu">
@@ -67,7 +67,7 @@
 </div>
 </div>
 
-<section class="inner-banner bg_img" style="background: url('/themes/casinos/assets/images/inner-banner/bg2.jpg') top;">
+<section class="inner-banner bg_img" style="background: url('/themes/cas/assets/images/inner-banner/bg2.jpg') top;">
 <div class="container">
 <div class="row justify-content-center">
 <div class="col-lg-7 col-xl-6 text-center">
@@ -107,7 +107,7 @@
 </div>
 </section>
 
-<footer class="footer-section bg_img" style="background: url(/themes/casinos/assets/images/footer/bg.jpg) center;">
+<footer class="footer-section bg_img" style="background: url(/themes/cas/assets/images/footer/bg.jpg) center;">
 <div class="footer-top">
 <div class="container">
 <div class="footer-wrapper d-flex flex-wrap align-items-center justify-content-md-between justify-content-center">
@@ -128,14 +128,14 @@
 </div>
 </div>
 <div class="shapes">
-<img src="/themes/casinos/assets/images/footer/shape.png" alt="footer" class="shape1">
+<img src="/themes/cas/assets/images/footer/shape.png" alt="footer" class="shape1">
 </div>
 </footer>
 
-<script src="/themes/casinos/assets/js/lib/jquery-3.6.0.min.js"></script>
-<script src="/themes/casinos/assets/js/lib/bootstrap.min.js"></script>
-<script src="/themes/casinos/assets/js/lib/slick.min.js"></script>
-<script src="/themes/casinos/assets/js/main.js"></script>
+<script src="/themes/cas/assets/js/lib/jquery-3.6.0.min.js"></script>
+<script src="/themes/cas/assets/js/lib/bootstrap.min.js"></script>
+<script src="/themes/cas/assets/js/lib/slick.min.js"></script>
+<script src="/themes/cas/assets/js/main.js"></script>
 <?= $Wcms->js() ?>
 
 </body>
