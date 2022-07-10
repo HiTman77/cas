@@ -111,7 +111,7 @@
 <div class="footer-top">
 <div class="container">
 <div class="footer-wrapper d-flex flex-wrap align-items-center justify-content-md-between justify-content-center">
-<div class="logo mb-3 mb-md-0"><a href="index.html"><img src="/data/files/logo.png" alt="<?= $Wcms->page('title') ?> on <?= $Wcms->get('config', 'siteTitle') ?>"></a></div>
+<div class="logo mb-3 mb-md-0"><a href="/"><img src="/data/files/logo.png" alt="<?= $Wcms->page('title') ?> on <?= $Wcms->get('config', 'siteTitle') ?>"></a></div>
 <ul class="footer-links d-flex flex-wrap justify-content-center">
 <li><a href="/games">Games</a></li>
 <li><a href="/terms">Terms & Conditions</a></li>
